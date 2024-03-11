@@ -2,7 +2,13 @@ import React from 'react'
 
 const Pre = () => {
   return (
-    <div>Pre</div>
+    <div class="container">
+    <p class="glitch">
+     
+      codepen
+    
+    </p>
+  </div>
   )
 }
 
