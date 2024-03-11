@@ -8,7 +8,7 @@ const AppHero = () => {
         <div className="flex justify-center items-center">
             <div className="">
                 <div className="text-center">
-                    <h1 className="text-white text-4xl nexa"> @Rhythm_Bfc</h1>
+                    <h1 className="text-white text-4xl nexa">@Rhythm_bfc</h1>
                 </div>
                 <div className="flex flex-row gap-4 mt-24">
                     <div className="bg-red-400 p-24 rounded-full"></div>
