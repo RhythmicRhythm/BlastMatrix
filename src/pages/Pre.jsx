@@ -51,7 +51,7 @@ const Pre = () => {
               />
             </div>
 
-            <button className="text-center w-full rounded-md bg-rose-600 px-6 py-4 text-xl sm:text-3xl font-bold text-white hover:bg-rose-400">
+            <button className="text-center w-full rounded-md bg-gradient-to-r from-yellow-400 to-orange-400 px-6 py-4 text-xl sm:text-3xl font-bold text-white hover:bg-rose-400">
               Proceed to Missions 
             </button>
           </form>
