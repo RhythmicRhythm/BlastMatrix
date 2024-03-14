@@ -42,36 +42,4 @@
   background-attachment: fixed;
   height: 70vh;
 }
-.octagon {
-  width: 50px;
-  height: 50px;
-  background: #fff;
-  position: relative;
-}
-.octagon:before {
-  content: "";
-  width: 20px;
-  height: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-bottom: 15px solid #333;
-  border-left: 15px solid #fff;
-  border-right: 15px solid #fff;
-}
-.octagon:after {
-  content: "";
-  width: 20px;
-  height: 0;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  border-top: 15px solid #333;
-  border-left: 15px solid #fff;
-  border-right: 15px solid #fff;
-}
-
-.container {
-  text-align: center;
-}
 
