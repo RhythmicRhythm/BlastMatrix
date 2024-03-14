@@ -7,7 +7,7 @@ import Tasks from '../components/Tasks';
 const Application = () => {
   return (
     <>
- <div className="min-h-screen">
+ <div className="overflow-x-hidden overflow-y-hidden">
       <MatrixRainingCode className="absolute inset-0" />
       <div className="flex flex-col">
         <AppHero />

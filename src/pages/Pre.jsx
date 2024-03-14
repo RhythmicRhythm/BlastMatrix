@@ -4,8 +4,8 @@ import Navbar from "../components/Navbar";
 
 const Pre = () => {
   return (
-    <div className="min-h-screen">
-      {/* <MatrixRainingCode className="absolute inset-0" /> */}
+    <div className=" overflow-x-hidden overflow-y-hidden">
+      <MatrixRainingCode className="absolute inset-0" />
       <Navbar />
       <div className="flex justify-center items-center guardians">
         <div className=" p-10 container w-full items-center mt-44">
@@ -52,7 +52,7 @@ const Pre = () => {
             </div>
 
             <button className="text-center w-full rounded-md bg-gradient-to-r from-yellow-400 to-orange-400 px-6 py-4 text-xl sm:text-3xl font-bold text-white hover:bg-rose-400">
-              Proceed to Missions 
+              Proceed to Missions
             </button>
           </form>
         </div>
