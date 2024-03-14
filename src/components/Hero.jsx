@@ -15,7 +15,7 @@ const Hero = () => {
               alt=""
               className="w-12"
             />
-            <p className="therace text-lg md:text-xl lg:text-6xl">Connect X</p>
+            <p className="therace text-lg md:text-xl lg:text-6xl">Connectvv X</p>
           </button>
         </div>
       </div>
