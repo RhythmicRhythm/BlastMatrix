@@ -21,8 +21,8 @@ const Home = () => {
     <div className="min-h-screen">
       <MatrixRainingCode className="absolute inset-0" />
       <div className="flex flex-col">
-        <Navbar />
-        <Hero />
+        {/* <Navbar />
+        <Hero /> */}
       </div>
     </div>
   );
