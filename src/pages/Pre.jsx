@@ -4,8 +4,8 @@ import Navbar from "../components/Navbar";
 
 const Pre = () => {
   return (
-    <div className="">
-      <MatrixRainingCode className="absolute inset-0" />
+    <div className="min-h-screen">
+      {/* <MatrixRainingCode className="absolute inset-0" /> */}
       <Navbar />
       <div className="flex justify-center items-center guardians">
         <div className=" p-10 container w-full items-center mt-44">
