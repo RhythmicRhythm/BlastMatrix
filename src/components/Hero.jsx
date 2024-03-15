@@ -1,19 +1,28 @@
-import React from "react";
+import { useContext, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Link as ScrollLink } from "react-scroll";
 import CustomButton from "./CustomButton";
 import { authentication } from "../firebase-config";
 import { signInWithPopup, TwitterAuthProvider } from "firebase/auth";
+import { storeInSession } from "../common/session";
+import { UserContext } from "../App";
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
+
+  let {
+    userAuth: { screenName },
+    setUserAuth,
+  } = useContext(UserContext);
+
   const SigninTwitter = () => {
     const provider = new TwitterAuthProvider();
     signInWithPopup(authentication, provider)
       .then((re) => {
         console.log(re.user.reloadUserInfo.displayName);
         console.log(re);
-        // storeInSession("user", JSON.stringify(re.user.reloadUserInfo));
-        // setUserAuth(re.user.reloadUserInfo);
+        storeInSession("user", JSON.stringify(re.user.reloadUserInfo));
+        setUserAuth(re.user.reloadUserInfo);
       })
       .catch((err) => {
         console.log(err);
