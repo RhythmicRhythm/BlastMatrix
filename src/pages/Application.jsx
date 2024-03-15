@@ -12,7 +12,7 @@ const Application = () => {
       <div className="flex flex-col">
         <AppHero />
         <div className="mb-48"></div>
-        <Tasks />
+        <Tasks  />
         
         
       </div>

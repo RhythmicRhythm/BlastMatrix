@@ -4,7 +4,7 @@ const Tasks = () => {
   return (
     <div>
       <div className="max-w-6xl mx-auto">
-        <div className="flex flex-col  gap-20 items-center justify-center">
+        <div className="flex flex-col  gap-20 items-center justify-center px-6">
           <div className="w-full px-6 py-8 therace mb-24  text-white rounded-lg bg-white bg-opacity-20 ">
             <h1 className="text-white text-xl mb-6">Missions</h1>
             <div className="mb-4 flex justify-between bg-gradient-to-r from-yellow-400 to-orange-400 px-8 py-6">
