@@ -15,9 +15,9 @@ const Home = () => {
     }, 4000);
   }, []);
 
-  if (isLoading) {
-    return <Loader />;
-  }
+  // if (isLoading) {
+  //   return <Loader />;
+  // }
 
   return (
     <div className="min-h-screen overflow-x-hidden overflow-y-hidden">

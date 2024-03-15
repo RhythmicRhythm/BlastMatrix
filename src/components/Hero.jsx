@@ -9,7 +9,6 @@ import { UserContext } from "../App";
 import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
-
   let {
     userAuth: { screenName },
     setUserAuth,
@@ -31,21 +30,14 @@ const Hero = () => {
 
   return (
     <div className="bg-transparent guardians p-4" id="home">
-      <div className="container w-full rounded-lg mx-auto flex flex-col pb-10 md:pb-40 items-center justify-center h-screen px-6">
-        <div className="">
-          <button
-            onClick={SigninTwitter}
-            className="p-4 px-32 rounded-lg text-white flex gap-2 bg-white bg-opacity-20 hover:bg-opacity-80"
-          >
-            <img
-              src="https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg?size=338&ext=jpg&ga=GA1.1.1395880969.1710115200&semt=ais"
-              alt=""
-              className="w-12"
-            />
-            <p className="therace text-lg md:text-xl lg:text-6xl">
-              Connectvv X
-            </p>
-          </button>
+      <div className="flex justify-center items-center guardians">
+        <div className=" p-10 container w-full items-center mt-44">
+          <div className="max-w-4xl mx-auto flex flex-col justify-center items-center text-white">
+            <button className="text-center flex items-center gap-2 rounded-md bg-gradient-to-r from-yellow-400 to-orange-400 px-6 py-4 text-xl sm:text-2xl font-bold text-white hover:bg-rose-400">
+              <div className="">X</div>
+              <p className="">Connect</p>
+            </button>
+          </div>
         </div>
       </div>
     </div>
