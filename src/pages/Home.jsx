@@ -1,4 +1,6 @@
 import { useContext, useEffect, useState } from "react";
+
+
 import Navbar from "../components/Navbar";
 import MatrixRainingCode from "../components/MatrixRainingEffect";
 import Hero from "../components/Hero";
