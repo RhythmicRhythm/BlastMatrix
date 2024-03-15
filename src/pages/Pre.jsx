@@ -8,11 +8,11 @@ const Pre = () => {
       <MatrixRainingCode className="absolute inset-0" />
       <Navbar />
       <div className="flex justify-center items-center guardians">
-        <div className=" p-10 container w-full items-center mt-44">
-          <h1 className="text-white text-3xl guardians">
+        <div className=" p-10 container w-full items-center text-center mt-44">
+          <h1 className="text-white  guardians">
             You're Early Here's a welcome gift
           </h1>
-          <h1 className="text-white text-6xl guardians mt-20">+500pts</h1>
+          <h1 className="text-white text-2xl sm:text-5xl guardians mt-20">+500pts</h1>
           <h1 className="text-white text-sm guardians mt-16">
             Input a refferal code if you have one for extra points
           </h1>
