@@ -61,18 +61,15 @@ const Navbar = () => {
           className="text-gray-300 hover:text-white mx-4 cursor-pointer"
         >
          <div className="mt-8">
-         <h1 className="text-white text-[100px] text-center therace tracking-[10px]">
+         <h1 className="text-white text-[70px] sm:text-[90px] text-center therace tracking-[10px]">
             Bl<span className="thefire text-[120px] mb-24 text-yellow-500">A</span>st 
           </h1>
-          <h1 className="text-white text-[40px] mt-8 text-center nexa tracking-[20px]">
+          <h1 className="text-white text-[20px] sm:text-[35px] mt-8 text-center nexa tracking-[20px]">
             MATRIX
           </h1>
          </div>
         </motion.div>
       </motion.div>
-    
-
-
     </nav>
   );
 };
